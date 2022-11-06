@@ -41,6 +41,27 @@
 
     }
 
+    .contact{
+        flex-direction: row;
+    }
+
+    .contact-info{
+        flex-basis: 50%;
+    }
+
+    .contact-form{
+        flex-basis: 50%;
+
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .menu{
+        display: none;
+    }
 
 
 }

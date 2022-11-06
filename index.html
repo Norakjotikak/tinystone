@@ -27,19 +27,22 @@
         </div>
 
         <nav>
-            <div class="icon">
-                <ion-icon name="grid"></ion-icon>
+
+            <div class="menu">
+                <a href="#sidenav">
+                    <ion-icon name="grid"></ion-icon>
+                </a>
             </div>
 
             <ul>
                 <li>
-                    <a href="http://127.0.0.1:5500/index.html">HOME</a>
+                    <a href="#home">HOME</a>
                 </li>
                 <li>
-                    <a href="#">SKILL</a>
+                    <a href="#skill">SKILL</a>
                 </li>
                 <li>
-                    <a href="#">CONTACT</a>
+                    <a href="#contact">CONTACT</a>
                 </li>
             </ul>
 
@@ -52,19 +55,34 @@
 
         </nav>
 
-
-
-
-
-
-
-
-
-
-
     </header>
 
-    <div class="banner">
+
+    <div id="sidenav" class="sidenav">
+        <ul>
+            <li>
+                <a href="#home">HOME</a>
+            </li>
+            <li>
+                <a href="#skill">SKILL</a>
+            </li>
+            <li>
+                <a href="#contact">CONTACT</a>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="banner" id="home">
 
 
         <div class="overlay">
@@ -75,7 +93,7 @@
         </div>
     </div>
 
-    <section class="skill">
+    <section class="skill" id="skill">
         <h2 class="section-title">OUR SKILL</h2>
 
         <div class="skills-wrapper">
@@ -144,6 +162,58 @@
 
 
     </section>
+
+
+    <section class="contact" id="contact">
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>If you have any specific concerns, please feel free to contact us. Welcome any comments, suggestions, feedback, questions, or requests you have.
+            </p>
+
+        </div>
+
+        <form class="contact-form">
+            <input type="name" placeholder="Name">
+
+            <input type="email" placeholder="Email">
+
+            <textarea cols="30" rows="10" placeholder="Massage"></textarea >
+
+                <button class="btn">SUBMIT</button>
+
+        </form>
+
+    </section>
+
+
+
+    <footer>
+        <div class="company">
+
+            <img src="./images/logo.png" alt="">
+
+            <div class="company-info">
+                <h4>TINYSTONE</h4>
+                <p>Standing on the Shoulders Of Giants</p>
+            </div>
+
+        </div>
+
+
+        <div class="sns">
+
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-tiktok"></ion-icon>
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            <ion-icon name="logo-wechat"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+
+
+        </div>
+
+
+    </footer>
 
 
 
